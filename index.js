@@ -1,7 +1,7 @@
 // Code your solution in this file!
-function (distanceFromHqInBlocks){
+function distanceFromHqInBlocks (distance){
   hqLocation= 42;
-  return Math.abs(distanceFromHqInBlocks-hqLocation);
+  return Math.abs(distance-hqLocation);
 
 
 
