@@ -1,7 +1,10 @@
 // Code your solution in this file!
-function distanceFromHqInBlocks(distance){
-   hqLocation= 42;
-  return Math.abs(distance-hqLocation=42);
+function distanceFromHqInBlocks (blockNumber) {
+  if (blockNumber > 42) {
+    return blockNumber - 42;
+  } else {
+    return 42 - blockNumber;
+  }
 }
 
 function distanceFromHqInFeet(distance){
